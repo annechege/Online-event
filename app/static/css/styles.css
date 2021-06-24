@@ -8,7 +8,7 @@
 }
 #sourcename{
    
-    background-image: url("app/static/events.jpeg");
+    background-image: url("..app/static/events.jpeg");
     color: blue;
     font-weight: bold;
 }
