@@ -8,6 +8,7 @@
 }
 #sourcename{
    
+    background-image: url("app/static/events.jpeg");
     color: blue;
     font-weight: bold;
 }
@@ -16,6 +17,7 @@
     font-weight: bolder;
 }
 .desc{
+   
     font-size:18px;
 }
 #visit{
