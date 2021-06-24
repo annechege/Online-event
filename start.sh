@@ -1,3 +1,3 @@
- export API_KEY='7b86e98b707d420d8b38756770bc1f5e'
+ export API_KEY='57338678ab664d3e9efbfd88eadfd3a2'
 
 python3.8 manage.py server
