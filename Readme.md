@@ -1,4 +1,4 @@
-# Events_Api
+# Online-Events
 ## Author
 Anne Chege (https://github.com/annechege/Online-event.git)
 # Description
