@@ -10,7 +10,7 @@
    
     background-image: url("app/static/images/pexels-gabriel-peter-696644.jpg");
     color: blue;
-    font-weight: bold;
+    font-weight: bolder;
 }
 #sourcename a:hover{
     text-decoration: none;
