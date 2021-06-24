@@ -10,7 +10,7 @@
    
     background-image: url("app/static/images/pexels-gabriel-peter-696644.jpg");
     color: blue;
-    font-weight: bolder;
+    font-weight: bold;
 }
 #sourcename a:hover{
     text-decoration: none;
@@ -41,7 +41,7 @@
     background-size: cover;
 }
 .overlay{
-    background-color: rgba(39, 42, 42, 0.884);
+    background-color: chocolate;
     width: 100%;
     padding-top: 1%
 }
