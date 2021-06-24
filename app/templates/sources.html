@@ -1,19 +1,20 @@
-{% extends 'base.html'%}
+{% extends 'base.html'%}<br><br>
 {% import 'news_macros.html' as macro %}
 
 {% block styles%}
-
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
 {% endblock %}
 
 {% block content %}
-<div class="container-fluid" id="allsources" >
+<div class="container-fluid" id="allsources" ><br><br>
     <div class="overlay">
-        <h2 class="text-center font-weight-bold headers" > General Events</h2>
+        <h2 class="text-center font-weight-bold headers" ><marquee behavior="scroll" direction="left"><b> General Events </b></marquee></h2>
         {{ macro.display_new_sources(general) }}
  
-        <h2 class="text-center font-weight-bold headers" > Business Events</h2>
+        <h2 class="text-center font-weight-bold headers" > Business Events </h2>
         {{ macro.display_new_sources(business) }}
-        <h2 class="text-center font-weight-bold headers" > Sports Events</h2>
+        <h2 class="text-center font-weight-bold headers" > Sports Events </h2>
         {{ macro.display_new_sources(sports) }}
     </div>
 </div>
