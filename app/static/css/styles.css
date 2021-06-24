@@ -17,16 +17,13 @@
     font-weight: bolder;
 }
 .desc{
-    font-family: 'Handlee', cursive;
     font-size:18px;
 }
 #visit{
     margin-left: 10%; 
 }
 .art{
-    font-family: 'Chilanka', cursive;
     font-weight: bold;
-
 }
 #articles{
     margin-top: 6%;
@@ -41,7 +38,7 @@
     background-size: cover;
 }
 .overlay{
-    background-color: chocolate;
+    background-color: brown;
     width: 100%;
     padding-top: 1%
 }
